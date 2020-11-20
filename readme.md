@@ -1,5 +1,5 @@
 # REST API using Node.js
-This is a starter project that is meant to be a showcase. Most of the features in this project are implementations of some online courses I learned from Udemy.
+This starter project is meant to be a showcase. Most of the features in this project are implementations of some online courses I learned from Udemy.
 
 ## Overview
 This project is mainly focused on CRUD requests by authorized users. Some interesting features in this project are :
