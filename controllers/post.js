@@ -149,7 +149,7 @@ exports.deletePostById = async (req, res, next) => {
     try {
         const postId = req.params.postId;
 
-        const row = await Post.destroy({ where: { id: postId }});
+        const row = await Post.destroy({ where: { id: postId, userId: req.userId }});
 
         if (row) {
             res.status(200).json({
